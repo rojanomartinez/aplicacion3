@@ -15,13 +15,13 @@
             <ImageAspectRatio>true</ImageAspectRatio>
             <ImageEffect>domino</ImageEffect>
             <ImageFillColor>#FFFFFF</ImageFillColor>
-            <ImageHeight>480</ImageHeight>
+            <ImageHeight>600</ImageHeight>
             <ImageQuality>90</ImageQuality>
             <ImageShrink2>false</ImageShrink2>
             <ImageStretch>true</ImageStretch>
             <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/pure/</ImageTemplate>
             <ImageTemplateName>Pure</ImageTemplateName>
-            <ImageWidth>640</ImageWidth>
+            <ImageWidth>800</ImageWidth>
             <Images>true</Images>
             <JoomlaType>2.5</JoomlaType>
             <OneLoop>false</OneLoop>
