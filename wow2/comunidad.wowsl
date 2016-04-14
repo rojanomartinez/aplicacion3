@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>4.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>comunidad</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>blinds</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>600</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/pure/</ImageTemplate>
+            <ImageTemplateName>Pure</ImageTemplateName>
+            <ImageWidth>800</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>E:/git/App3/wow2/indexwow2.html</PublishFileName>
+            <PublishIndex>indexwow2.html</PublishIndex>
+            <PublishPath>E:/git/App3/wow2</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>pure</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (1).jpg</url>
+                <title>Comunidad (1)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (2).jpg</url>
+                <title>Comunidad (2)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (3).jpg</url>
+                <title>Comunidad (3)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (4).jpg</url>
+                <title>Comunidad (4)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (5).jpg</url>
+                <title>Comunidad (5)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (6).jpg</url>
+                <title>Comunidad (6)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (7).jpg</url>
+                <title>Comunidad (7)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (8).jpg</url>
+                <title>Comunidad (8)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (9).jpg</url>
+                <title>Comunidad (9)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (10).jpg</url>
+                <title>Comunidad (10)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (11).jpg</url>
+                <title>Comunidad (11)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (12).jpg</url>
+                <title>Comunidad (12)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (13).jpg</url>
+                <title>Comunidad (13)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (14).jpg</url>
+                <title>Comunidad (14)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (15).jpg</url>
+                <title>Comunidad (15)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (16).jpg</url>
+                <title>Comunidad (16)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (17).jpg</url>
+                <title>Comunidad (17)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (18).jpg</url>
+                <title>Comunidad (18)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (19).jpg</url>
+                <title>Comunidad (19)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (20).jpg</url>
+                <title>Comunidad (20)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (21).jpg</url>
+                <title>Comunidad (21)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (22).jpg</url>
+                <title>Comunidad (22)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (23).jpg</url>
+                <title>Comunidad (23)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (24).jpg</url>
+                <title>Comunidad (24)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (25).jpg</url>
+                <title>Comunidad (25)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (26).jpg</url>
+                <title>Comunidad (26)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (27).jpg</url>
+                <title>Comunidad (27)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (28).jpg</url>
+                <title>Comunidad (28)</title>
+            </Image>
+            <Image>
+                <url>C:/Users/jroja/Desktop/Comunidad (29).jpg</url>
+                <title>Comunidad (29)</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

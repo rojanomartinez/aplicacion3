@@ -1,0 +1,360 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--Grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/SemanaSanta03.jpg','imagenes/SemanaSanta09.jpg','imagenes/contaminacion01.jpg','imagenes/contaminacion03.jpg')">
+<div data-role="page" id="principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Contaminacion en mi Comunidad</h1>
+     <center>
+     <p><img src="imagenes/contaminacion04.jpg"></p>
+     </center>
+   </div>
+      
+<div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>¿Que es la Contaminacion?</h2>
+    <p>Explica en general que es la contaminacion</p>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Tipos De Contaminacion</h2>
+      <p>Explica algunos tipos de comunicacion</p>
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Medidas Para Prevenir En Mi Comunidad</h2>
+     <p>Define como puedes ayudar a prevenir la contaminacion en tu comunidad</p>
+     </a>
+   </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Que puedes hacer para ayudar el medio ambiente</h2>
+     <p>Informa de como podemos evitar contaminar</p>
+     </a>
+   </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Causas De Contaminar</h2>
+     <p>Explica las causas de la contaminacion</p>
+     </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Consequencias De La Contaminacion</h2>
+     <p>Informa de cuales ons lascuasas de la contaminacion</p>
+     </a>
+     </li>
+  </ul>
+  <div data-role="footer" align="center" data-theme="a">
+   <div>
+     <h4>Aplicacion Tres</h4>
+      <img src="imagenes/recycle-2-icon.png" width="46" height="46">
+     <h4>Jesus Angel Rojano Martinez</h4>
+   </div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>¿Que Es La Contaminacion?</h1>
+     </div>
+     <div data-role="content" align="center">
+      <div>
+        <p> La <strong>Contaminación</strong> se denomina a la presencia en el   ambiente de cualquier agente químico, físico o biológico nocivos para la   salud o el bienestar de la población, de la vida animal o vegetal.</p>
+        <p> Esta degradación del medio ambiente por un contaminante externo puede   provocar daños en la vida cotidiana del ser humano y alterar las   condiciones de supervivencia de la flora y la fauna. La <strong>contaminación</strong> es la introducción de sustancias en un medio que provocan que este sea inseguro o no apto para su uso.1 El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad).</p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/contaminacion01.jpg',1)"><img src="imagenes/contaminacion04.jpg" width="281" height="179" id="Image9"></a></p>
+        <p>Es siempre una alteración negativa del estado natural del medio, y por lo general, se genera como consecuencia de la actividad humana considerándose una forma de impacto ambiental.</p>
+        <p>La contaminación puede clasificarse según el tipo de fuente de donde   proviene, o por la forma de contaminante que emite o medio que   contamina. Existen muchos agentes contaminantes entre ellos las   sustancias químicas (como plaguicidas, cianuro, herbicidas y otros.),   los residuos urbanos, el petróleo, o las radiaciones ionizantes.</p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/contaminacion03.jpg',1)"><img src="imagenes/contaminacion04.jpg" width="281" height="179" id="Image10"></a></p>
+        <p> Todos   estos pueden producir enfermedades, daños en los ecosistemas o el medioambiente. Además existen muchos contaminantes gaseosos que   juegan un papel importante en diferentes fenómenos atmosféricos, como la   generación de lluvia ácida, el debilitamiento de la capa de ozono, y el   cambio climático.</p>
+        <p>&nbsp; </p>
+      </div>
+     </div>
+     <div>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>Mas Informacion:</h1>
+          <div>
+          <br>
+          </div>
+      <div>
+        <h4><span id="Contaminaci.C3.B3n_atmosf.C3.A9rica">Contaminación atmosférica</span></h4>
+        <p>Consiste en la liberación de sustancias químicas y partículas en la atmósfera alterando su composición y suponiendo un riesgo para la salud de las   personas y de los demás seres vivos. Los gases contaminantes del aire   más comunes son el monóxido de carbono, el dióxido de azufre, los clorofluorocarbonos y los óxidos de nitrógeno producidos por la industria y por los gases producidos en la combustión de los vehículos. Los fotoquímicos como el ozono y el esmog se aumentan en el aire por los óxidos del nitrógeno e hidrocarburos y reaccionan a la luz solar. El material particulado o el polvo contaminante en el aire se mide por su tamaño en micrómetros,   y es común en erupciones volcánicas. La contaminación atmosférica puede   tener un carácter local, cuando los efectos ligados al foco de emisión   afectan solo a las inmediaciones del mismo, o un carácter global, cuando   las características del contaminante afectan al equilibrio del planeta y   zonas muy distantes a los focos emisores, ejemplos de esto son la lluvia ácida y el calentamiento global.</p>
+        <img src="imagenes/contaminacion02.jpg">
+        <h4><span id="Contaminaci.C3.B3n_h.C3.ADdrica">Contaminación hídrica</span></h4>
+        <p>Se da por la liberación de residuos y contaminantes que drenan a las escorrentías y luego son transportados hacia ríos, penetrando en aguas subterráneas o descargando en lagos o mares. Por derrames o descargas de aguas residuales, eutrofización o descarga de basura. O por liberación descontrolada del gas de invernadero CO2 que produce la acidificación de los océanos. Los desechos marinos son desechos mayormente plásticos que contaminan los océanos y costas, algunas veces se acumulan en alta mar como en la gran mancha de basura del Pacífico Norte.   Los derrames de petróleo en mar abierto por el hundimiento o fugas en   petroleros y algunas veces derrames desde el mismo pozo petrolero.</p>
+        <img src="imagenes/contaminacion03.jpg">
+        <h4><span id="Contaminaci.C3.B3n_del_suelo">Contaminación del suelo</span></h4>
+        <p>Ocurre cuando productos químicos son liberados por un derrame o   filtraciones sobre y bajo la tierra. Entre los contaminantes del suelo   más significativos se encuentran los hidrocarburos como el petróleo y sus derivados, los metales pesados frecuentes en baterías, el Metil tert-butil éter (MTBE),13 los herbicidas y plaguicidas generalmente rociados a los cultivos industriales y monocultivos y organoclorados producidos por la industria. También los vertederos y cinturones   ecológicos que entierran grandes cantidades de basura de las ciudades.   Esta contaminación puede afectar a la salud de forma directa y al entrar   en contacto con fuentes de agua potable.</p>
+        <img src="imagenes/contaminacion01.jpg">
+        <h4><span id="Contaminaci.C3.B3n_por_basura">Contaminación por basura</span></h4>
+        <p>Las grandes acumulaciones de residuos y de basura son un problema   cada día mayor, se origina por las grandes aglomeraciones de población   en las ciudades industrializadas o que están en proceso de urbanización.   La basura es acumulada mayormente en vertederos, pero muchas veces es   arrastrada por el viento o ríos y se dispersa por la superficie de la   tierra y algunas veces llega hasta el océano.</p>
+        <img src="imagenes/contaminacion06.jpg">
+        <h4><span id="Contaminaci.C3.B3n_radiactiva">Contaminación radiactiva</span></h4>
+        <p>Resultado de las actividades en física atómica desde el siglo XX, puede ser resultado de graves desperfectos en plantas nucleares o por investigaciones en bombas nucleares, también por la manufactura y uso materiales radioactivos. (Ver emisores de partículas alfa) <em>La Contaminación radiactiva se trata más ampliamente en este artículo en la sección Radiación ionizante</em><em>.</em></p>
+        <img src="imagenes/contaminacion05.jpg">
+        <p>Entre Otras mas..</p>
+      </div>
+      </div>
+    </div>
+    <div data-role="footer" data-theme="a">
+     <center>
+      <h3>App3</h3>
+      <img src="imagenes/Factory-2-icon.png" width="46" height="46">
+      <h4>Rojano Martinez Jesus Angel</h4>
+     </center>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Tipos de Contaminacion</h1>
+    </div>
+    <div data-role="content" align="center">
+        <div>
+          <h4><span id="Contaminaci.C3.B3n_atmosf.C3.A9rica2">Contaminación atmosférica</span></h4>
+          <p>Consiste en la liberación de sustancias químicas y partículas en la atmósfera alterando su composición y suponiendo un riesgo para la salud de las   personas y de los demás seres vivos. Los gases contaminantes del aire   más comunes son el monóxido de carbono, el dióxido de azufre, los clorofluorocarbonos y los óxidos de nitrógeno producidos por la industria y por los gases producidos en la combustión de los vehículos. Los fotoquímicos como el ozono y el esmog se aumentan en el aire por los óxidos del nitrógeno e hidrocarburos y reaccionan a la luz solar. El material particulado o el polvo contaminante en el aire se mide por su tamaño en micrómetros,   y es común en erupciones volcánicas. La contaminación atmosférica puede   tener un carácter local, cuando los efectos ligados al foco de emisión   afectan solo a las inmediaciones del mismo, o un carácter global, cuando   las características del contaminante afectan al equilibrio del planeta y   zonas muy distantes a los focos emisores, ejemplos de esto son la lluvia ácida y el calentamiento global.</p>
+          <h4><span id="Contaminaci.C3.B3n_h.C3.ADdrica2">Contaminación hídrica</span></h4>
+          <p>Se da por la liberación de residuos y contaminantes que drenan a las escorrentías y luego son transportados hacia ríos, penetrando en aguas subterráneas o descargando en lagos o mares. Por derrames o descargas de aguas residuales, eutrofización o descarga de basura. O por liberación descontrolada del gas de invernadero CO2 que produce la acidificación de los océanos. Los desechos marinos son desechos mayormente plásticos que contaminan los océanos y costas, algunas veces se acumulan en alta mar como en la gran mancha de basura del Pacífico Norte.   Los derrames de petróleo en mar abierto por el hundimiento o fugas en   petroleros y algunas veces derrames desde el mismo pozo petrolero.</p>
+          <h4><span id="Contaminaci.C3.B3n_del_suelo2">Contaminación del suelo</span></h4>
+          <p>Ocurre cuando productos químicos son liberados por un derrame o   filtraciones sobre y bajo la tierra. Entre los contaminantes del suelo   más significativos se encuentran los hidrocarburos como el petróleo y sus derivados, los metales pesados frecuentes en baterías, el Metil tert-butil éter (MTBE),13 los herbicidas y plaguicidas generalmente rociados a los cultivos industriales y monocultivos y organoclorados producidos por la industria. También los vertederos y cinturones   ecológicos que entierran grandes cantidades de basura de las ciudades.   Esta contaminación puede afectar a la salud de forma directa y al entrar   en contacto con fuentes de agua potable.</p>
+          <h4><span id="Contaminaci.C3.B3n_por_basura2">Contaminación por basura</span></h4>
+          <p>Las grandes acumulaciones de residuos y de basura son un problema   cada día mayor, se origina por las grandes aglomeraciones de población   en las ciudades industrializadas o que están en proceso de urbanización.   La basura es acumulada mayormente en vertederos, pero muchas veces es   arrastrada por el viento o ríos y se dispersa por la superficie de la   tierra y algunas veces llega hasta el océano.</p>
+          <h5><span id="Chatarra_electr.C3.B3nica">Chatarra electrónica</span></h5>
+          <p>Desechos electrónicos o basura tecnológica compuestas por Residuos de aparatos eléctricos y electrónicos.</p>
+          <h5><span id="Basura_espacial">Basura espacial</span></h5>
+          <p>Esta basura que orbita alrededor de la Tierra se compone de restos de   cohetes y satélites viejos, restos de explosiones y pequeñas partículas   artificiales. Esta basura puede generar serios daños en los satélites   en funcionamiento, ya que los impactos a velocidades orbitales pueden   transformar a los satélites funcionales en más basura espacial   produciendo un proceso llamado Síndrome de Kessler.</p>
+          <h4><span id="Contaminaci.C3.B3n_radiactiva2">Contaminación radiactiva</span></h4>
+          <p>Resultado de las actividades en física atómica desde el siglo XX, puede ser resultado de graves desperfectos en plantas nucleares o por investigaciones en bombas nucleares, también por la manufactura y uso materiales radioactivos. (Ver emisores de partículas alfa) <em>La Contaminación radiactiva se trata más ampliamente en este artículo en la sección Radiación ionizante.</em></p>
+          <h4><span id="Contaminaci.C3.B3n_gen.C3.A9tica">Contaminación genética</span></h4>
+          <p>Es la transferencia incontrolada o no deseada de material genético (por medio de la fecundación) hacia una población salvaje. Tanto desde organismos genéticamente modificados a otros no modificados, o desde especies invasivas o no nativas hacia poblaciones nativas. La contaminación genética afecta el acervo génico (patrimonio genético) de una población o especie, y puede afectar la biodiversidad genética de una población o especie. Por ejemplo si a los organismos   genéricamente modificados (OGM) se les permite reproducirse con   organismos no modificados (no-OGM) se producirá la contaminación   genética, y como resultado:14 1) Los OGM pueden llevar a los no-OGM a la extinción. 2) Sus genes se   pueden mezclar y no podrán mostrar sus características. 3) Y existen   posibilidades de que los no-OGM desarrollen habilidades para tolerar los   pesticidas y herbicidas lo que generaría una pesadilla para los   granjeros.</p>
+          <h4><span id="Contaminaci.C3.B3n_electromagn.C3.A9tica">Contaminación electromagnética</span></h4>
+          <p>Es producida por las radiaciones del espectro electromagnético generadas por equipos electrónicos u otros elementos producto de la actividad humana, como torres de alta tensión y transformadores, las antenas de telefonía móvil, los electrodomésticos, etc. Esta contaminación puede producir peligros de tres tipos:</p>
+          <dl>
+            <dd><em>Peligros eléctricos</em> capaces de inducir una corriente   eléctrica o choque eléctrico que pueden dañar personas o animales,   sobrecargar o dañar aparatos eléctricos, un ejemplo de esto son las tormentas solares que inducen corrientes eléctricas en el campo magnético de la tierra,   en 1994 una tormenta solar afecto a varios satélites de comunicación   generando problemas en periódicos y redes de radio y televisión de Canadá.15</dd>
+            <dd><em>Peligros de incendio</em> en el caso de una fuente de muy alta   radiación electromagnética puede producir una corriente eléctrica de tal   intensidad que genera una chispa que puede causar incendios en   ambientes con combustible como por ejemplo gas natural.</dd>
+            <dd><em>Peligros biológicos</em> es ampliamente conocido que el efecto de   los campos electromagnéticos pueden causar calentamiento dieléctrico,   este efecto es lo que hace funcionar al horno microondas. Por esto una   antena que transmite a una alta potencia puede generar quemaduras en las   personas muy cercanas a esta. Este calentamiento varia con la potencia y   frecuencia de la onda electromagnética. Existen controversias de si la contaminación electromagnética no ionizante produce o no efectos negativos sobre la salud (como el cáncer). Hasta la fecha no se ha podido probar riesgos para la salud.</dd>
+          </dl>
+          <h4><span id="Contaminaci.C3.B3n_t.C3.A9rmica">Contaminación térmica</span></h4>
+          <div>
+            <div>
+              
+            </div>
+          </div>
+          <p>Es un cambio en la temperatura de un cuerpo de agua causado por la influencia humana, como el uso de agua como refrigerante para plantas de energía nuclear,   el aumento artificial de la temperatura puede tener efectos negativos   para algunos seres vivos en un hábitat específico ya que cambia las   condiciones naturales del medio en que viven. Estos cambios de   temperatura provocan un <em>"shock térmico"</em> en los ecosistemas. Por ejemplo: un aumento en la temperatura del agua reduce la solubilidad de oxigeno en ella, además un aumento en el metabolismo de los animales acuáticos   que los lleva a consumir más alimento reduciendo los recursos del   ecosistema. Varias especies de peces evitan las zona de descarga de   aguas calientes provocando una reducción de la biodiversidad en el área   afectada.</p>
+          <h4><span id="Contaminaci.C3.B3n_ac.C3.BAstica">Contaminación acústica</span></h4>
+          <p>Que comprende el ruido de avenidas producidos por automotores, ruido de aviones, ruido industrial o ruidos de alta intensidad. Pueden reducir la capacidad auditiva del hombre y producir estrés.</p>
+          <h4><span id="Contaminaci.C3.B3n_visual">Contaminación visual</span></h4>
+          <p>Que puede referirse a la presencia de torres para el transporte de energía eléctrica, Vallas publicitarias en carreteras y avenidas, accidentes geográficos como las "cicatrices" producidas por la minería a cielo abierto, también por los vertederos a cielo abierto.</p>
+          <h4><span id="Contaminaci.C3.B3n_lum.C3.ADnica">Contaminación lumínica</span></h4>
+          <p>Incluye la sobre iluminación e interferencia astronómica (que disminuye y distorsiona el brillo de las estrellas o cualquier   objeto estelar afectando el trabajo de observatorios y astrónomos), esta   contaminación se da durante la noche en cercanías de las ciudades, por   esto los observatorios astronómicos importantes se asientan en regiones   alejadas de las urbes.</p>
+        </div>
+    </div>
+     <div>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>Visor de Imagenes:</h1>
+          <div>
+           <!-- Start WOWSlider.com -->
+<iframe src="wow/indexwow.html" style="width:645px;height:485px;max-width:75%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+          </div>
+      </div>
+    </div>
+   <div data-role="footer" data-theme="a">
+     <center>
+      <h3>App3</h3>
+      <img src="imagenes/Factory-2-icon.png" width="46" height="46">
+      <h4>Rojano Martinez Jesus Angel</h4>
+     </center>
+    </div>
+
+</div>
+</div>
+<!-- aqui la pagina 3 --->
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Medidas para Prevenir en Mi Comunidad</h1>
+  </div>
+    <div data-role="content" align="center">
+      <div>
+        <p>La contaminación es un problema que nos afecta a   todos a causa de tirar basura en los ríos , quemarla, la tala de arboles   inmoderada, los mercados, tirar basura en lugares públicos, las   fabricas, el basurero municipal, los desechos tóxicos, entre otras cosas   mas que afecta a nuestra salud.
+          Las   naciones desarrolladas utilizan el 80% de la energía que se utiliza en   el mundo ,en los países en vías de desarrollo emplean tan solo el 20%,   los países mas industrializados emiten el 60% de dióxido de carbono y   otros gases que provocan el aumento de la temperatura lo anterior quiere   decir que los países industrializados consumen mayor cantidad de gases   efecto invernadero.
+          Ante   las graves consecuencias que tiene el aumento de la temperatura en los   ecosistemas de la tierra. en 1997 los países industrializados se   comprometieron en la ciudad japonesa de Kyoto, a ejecutar un conjunto de   medidas para reducir los gases efecto invernadero. Sin embargo, algunos   países como Estados Unidos, no asumieron el compromiso.
+          Es   claro que a pesar de los acuerdos establecidos entre las naciones del   mundo, los gases causantes del calentamiento global siguen vistiéndose a   la atmósfera en cantidades excesivas. Otra forma de disminuir las   emisiones de gases de efecto invernadero consiste en reducir el uso de   las maquinas , como el automovil, que producen en gran cantidad estos   gases, sobre todo en las grandes ciudades.</p>
+          <img src="imagenes/contaminacion15.gif">
+      </div>
+   </div>
+<div data-role="footer" data-theme="a">
+     <center>
+      <h3>App3</h3>
+      <img src="imagenes/Factory-2-icon.png" width="46" height="46">
+      <h4>Rojano Martinez Jesus Angel</h4>
+     </center>
+    </div>
+
+</div>
+
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Qué puedes hacer para ayudar al medio ambiente</h1>
+  </div>
+    <div data-role="content" align="center">
+      <div>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/SemanaSanta09.jpg',1)"></a>El mundo se está dando cuenta de que la única manera de detener el   calentamiento global y otras formas de degradación ambiental es uniendo a   la humanidad en un solo esfuerzo. Es tiempo de que pongas tu grano de   arena. Aquí tienes una lista de cosas que puedes (y deberías) hacer para   dejar de contaminar el ambiente. Creímos que hacer una lista no era   suficiente, así que hemos incluido algunas explicaciones.</p>
+        <p>+ El principal contaminante que estamos lanzando al aire es el   dióxido de carbono. Por tanto, si no deseas dejar de utilizar tu auto,   al menos déjalo en casa dos días a la semana, cambia tus filtros cada   año y mantén tus llantas bien infladas. Estas simples medidas reducirán   tu consumo de combustible y las emisiones que tu auto lanza al aire.</p>
+        <p>+ Ahora, si compartes el carro con tus compañeros de trabajo y   vecinos, evitas las aceleraciones fuertes y usas el sistema overdrive   tanto como te sea posible, tu contribución será aún mayor.</p>
+        <p>+ Otra cosa que puedes hacer es dejar de usar máquinas para cosas que   puedes hacer con tus manos. Camina o monta bicicleta para ir a la   tienda, olvida la podadora a motor y regresa a la que empujabas. En   casa, considera comer ensaladas más seguido, para que cocines menos con   tus hornillas cada día.</p>
+        <p>+ Hablando de la casa, sería bueno que recuerdes que el calentamiento   global no se debe únicamente a tus emisiones de dióxido de carbono.   Mientras más desperdicies, más obligarás a las empresas a comprar   materias primas para ajustarse a su demanda, así que compra cosas   envasadas en objetos ligeros y reciclables. Asimismo, separa un día y   revisa que en tu casa no hayan fugas de agua o problemas con el   calefactor. Aparte de esto, cambia todos tus bombillos de luz por   fluorescentes compactos y prométete no usar dispositivos sin baterías   recargables.</p>
+        <p>+ Planta un árbol nuevo en tu jardín. Si haces una cerca, hazla con bambú porque absorbe un poco de calor.</p>
+        <p>+ Y no olvides cerrar la llave del agua mientras lavas tu ropa, tu   rostro o tus dientes. Algo más que agregar: reduce la temperatura del   calefactor medio grado durante el invierno. Ahora ¿por qué no lavas tu   ropa a mano y con jabón en lugar de detergente? Evita el uso de   lavadoras y secadoras y ahorrarás muchísima energía.</p>
+      </div>
+   </div>
+   <div>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>Mas de Como Ayudar:</h1>
+          <div>
+          <br>
+          </div>
+      <div>
+        <p>+ En la oficina, convence a tu jefe de colocar un segundo cesto de   basura para cosas reciclables. Recuérdale que contribuir con el medio   ambiente está de moda a nivel mundial y que el ejemplo es la mejor   manera de obtener resultados. Estará feliz de informar a su departamento   de relaciones públicas acerca de su flamante decisión; y ellos estarán   felices de hacerlo conocido en los medios.</p>
+        <p>+ Aparte de esto, decide desperdiciar menos papel imprimiendo y   fotocopiando por ambas caras. ¿El documento es demasiado importante para   imprimirlo en ambas caras? Agrega esta línea y verás: "Nuestra empresa   está seriamente comprometida con el esfuerzo de detener el calentamiento   global y otras formas de destrucción ambiental. Se pondrán verdes de   envidia.</p>
+        <p>+ Corta el papel en pedazos en vez de mandarlo a la trituradora. Usa   el reverso para hacer anotaciones. Ahorrarás muchos post-its y siempre   los podrás enviar a tu cesta de materiales reciclables después.   Asimismo, cambia tus lápices por portaminas.</p>
+        <p>+ ¡Maestros! ¡No pidan a sus alumnos más material del que vayan a   necesitar! Y pídanles enviar sus papeles por correo-e. Aprovechen su   posición para crear conciencia en las escuelas, traigan el arte a la   vida y pronto verán la diferencia.</p>
+        <p>+ En la tienda, escoge productos envasados en vidrio por sobre los de   plástico para tus líquidos, compra productos envasados en materiales   reciclables y pide que te empaqueten tus cosas en menos bolsas.   Tenderos, hagan su parte y reduzcan el número de bolsas de plástico que   dan a sus clientes. No hay necesidad de dar cinco bolsas de plástico si   están vendiendo solamente doce productos.</p>
+        <p>+ ¿Crees que los gobiernos y las organizaciones no gubernamentales   tienen los roles primarios en este asunto? Olvida eso. ¿No has oído del   poder del consumidor? Castiga a las compañías que contaminan sus zonas   aledañas y presiona a tu gobierno para que revise las leyes sobre   contaminación y las haga cumplir. ¿Tienen ellos alguna piedad cuando se   trata de vender sus productos o recolectar impuestos? Ahora nos toca.</p>
+        <p>+ Gerentes, instalen sistemas a energía solar e inviertan en filtros   de aire y extractores de dióxido de carbono para sus fábricas.   Consideren también la tasa de emisiones al comprar su siguiente flota de   autos.</p>
+        <p>+ Por último, averigüen qué entidades de caridad u ONGs pueden tomar   sus cosas viejas como donaciones en vez de simplemente tirarlas. Muchas   organizaciones toman estas cosas, las reciclan y las revenden para   financiar sus actividades.</p>
+        <p>Diez millones de personas haciendo estas cosas simples todos los días   definitivamente ayudarán a reducir mucho el problema de la   contaminación mundial. Pasa la voz y dejaremos de empeorar la situación   ambiental del planeta.</p>
+      </div>
+      </div>
+    </div>
+<div data-role="footer" data-theme="a">
+     <center>
+      <h3>App3</h3>
+      <img src="imagenes/Factory-2-icon.png" width="46" height="46">
+      <h4>Rojano Martinez Jesus Angel</h4>
+     </center>
+    </div>
+
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Causas de Contaminar</h1>
+  </div>
+    <div data-role="content" align="center">
+      <div>
+        <h2>Lo que ocaciona la contaminacion</h2>
+        <p>El aumento continuo de la población y un incontrolado desarrollo   industrial originan serios problemas para el medio ambiente en forma de   contaminación. Las <strong>causas de la contaminación ambiental</strong> son variadas. La presencia en el ambiente de cualquier agente físico,   químico o biológico cuya concentración ocasione alteraciones en la   estructura y el funcionamiento de los ecosistemas se consideran como   parte de este tipo de contaminación. </p>
+        <ul>
+          <li><strong>La contaminación del aire (o atmosférica)</strong> es la   producida por los humos de los vehículos e industrias, aerosoles, polvo,   ruidos, malos olores, radiación atómica, etc. Entre los contaminantes   gaseosos más comunes encontramos el dióxido de carbono, el monóxido de   carbono, los hidrocarburos, los óxidos de nitrógeno, los óxidos de   azufre y el ozono. Para la organización Ecologistas en Acción, las<strong> principales </strong>causas<strong> de la </strong>contaminación<strong> del aire están relacionadas con la quema de combustibles fósiles (carbón, petróleo y gas).   La combustión de estas materias primas se produce en los procesos o en   el funcionamiento de los sectores industrial y del transporte por   carretera, principalmente.</strong> Según datos de los ecologistas,<strong> a<strong>proximadamente el 80% </strong>de la</strong> contaminación<strong> atmosférica en España está causada por el tráfico rodado.</strong></li>
+        </ul>
+        <ul>
+          <li><strong>La contaminación del agua (o hídrica).</strong> Según la Organización Mundial de la Salud (OMS),   el agua está contaminada cuando su composición se haya alterado de modo   que no reúna las condiciones necesarias para ser utilizada   beneficiosamente en el consumo del hombre y de los animales. La   contaminación del agua afecta a ríos, acuíferos y mares, que se   convierten poco a poco en verdaderos basureros. Como denuncian   organizaciones como Greenpeace, <strong>cientos de sustancias tóxicas son arrojadas al agua sin un control adecuado: al año se vierten al agua en España más de 4,6 millones de toneladas de contaminantes. Entre ellos, encontramos vertidos de aguas negras</strong> (urbanos e industriales), de petróleo, productos fitosanitarios (como   plaguicidas), abonos, pesticidas, detergentes y otros productos nocivos   para el medio ambiente. Por su parte, los ecologistas de WWF destacan que la <strong>agricultura constituye el contaminador difuso más importante de España</strong>.   La contaminación por nitratos en las aguas subterráneas se debe a la   infiltración de los fertilizantes agrícolas, de los cuales se usan en   España aproximadamente 1.700 toneladas al año.      </li>
+        </ul>
+      </div>
+   </div>
+<div data-role="footer" data-theme="a">
+     <center>
+      <h3>App3</h3>
+      <img src="imagenes/Factory-2-icon.png" width="46" height="46">
+      <h4>Rojano Martinez Jesus Angel</h4>
+     </center>
+    </div>
+
+</div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Consecuencias de la contaminacion</h1>
+  </div>
+    <div data-role="content" align="center">
+      <div>
+        <p> <strong>La contaminación ha provocado daños en el ecosistema, en la vida del hombre, de los animales y plantas.</strong> La acción del hombre, el progreso y la intención de mejorar las   condiciones de vida son las causas principales de la contaminación   ambiental que está sufriendo el planeta. A su vez, los efectos de esta   acción la padece el mismo hombre.</p>
+        <p> Los contaminantes pueden producir efectos nocivos e irreversibles para   la salud a determinados niveles de concentración. Los efectos dependen   de la dosis y de la frecuencia de exposición a ese contaminante.</p>
+        <p> <strong>Efectos de la contaminación en el ser humano:</strong></p>
+        <p> Según algunos expertos, muchos de los efectos de la contaminación se   relacionan, de forma directa, con el nivel social y económico en que se   encuentren las comunidades afectadas.<br>
+        La pobreza,   la falta de acceso a agua potable y de vivienda junto a la combustión   de leña y carbón influye de manera significativa sobre la salud de las   comunidades más vulnerables que habitan el planeta.<br>
+        La parte de la población más afectada por la contaminación ambiental   son: los ancianos, los niños, las embarazadas y los enfermos con   problemas respiratorios.<br>
+  <br>
+  <strong>Efectos de la contaminación en los animales:</strong></p>
+        <p> La fauna que vive en la tierra es la que más ha sufrido la   contaminación. A causa de acciones contaminantes, intencionadas o no, <strong>muchas especies están en peligro de extinción</strong>.<br>
+        Por ejemplo, la contaminación<strong> acústica</strong> en el mar y los   océanos ha afectado en la salud y en el comportamiento de numerosas   especies submarinas, como delfines, ballenas, algunos invertebrados y   otros animales marinos.<br>
+        La contaminación <strong>química</strong> también daña a los habitantes   del mar. Muchos investigadores encontraron restos de metales y de   sustancias muy contaminantes como el mercurio, el cadmio, el cobre y el   plomo en especies acuáticas.<br>
+        La contaminación <strong>lumínica</strong> cambia el comportamiento de   muchos animales. Algunos expertos y  ecólogos observaron que los   murciélagos han logrado adaptarse a la vida en la ciudad porque, su   alimento principal, las polillas se han trasladado, atraídas por la luz   de las farolas.  Por el contrario, otros animales, necesitados de   oscuridad, al intentar alejarse de la luz terminaron en el mar, donde es   difícil conseguir alimentos.</p>
+        <p> <strong>Efectos de la contaminación en las plantas:</strong></p>
+        <p> La polución afecta  al crecimiento de las plantas y provoca la   desaparición de muchas especies. La escasez de lluvias y la   contaminación de agua, aire y suelo han traído como consecuencia la desertificación. Esta situación perjudica de manera seria a agricultores porque sus plantas y sus cosechas no podrán crecer no recolectarse.</p>
+      </div>
+   </div>
+   
+   
+   <div>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>Imagenes de contaminacion en mi comunidad:</h1>
+          <div>
+           <!-- Start WOWSlider.com -->
+<iframe src="wow2/indexwow2.html" style="width:645px;height:485px;max-width:75%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+          </div>
+      </div>
+    </div>
+    
+    
+<div data-role="footer" data-theme="a">
+     <center>
+      <h3>App3</h3>
+      <img src="imagenes/Factory-2-icon.png" width="46" height="46">
+      <h4>Rojano Martinez Jesus Angel</h4>
+     </center>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
